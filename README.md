@@ -4,7 +4,7 @@ A command-line tool for generating universally unique identifiers.
 
 ## Requirements
 
-uuid is written in Elixir and will require Elixir > 1.10 if installed locally.
+uuid is written in Elixir and will require Elixir > 1.10 and `mix` if installed locally.
 
 ## Installation
 
@@ -17,8 +17,7 @@ Verify uuid is installed properly by running `docker run -it --rm uuid --help`.
 
 Start by cloning the repo at [https://github.com/cmmorrow/uuid](https://github.com/cmmorrow/uuid).
 
-Run mix escript.build from the command line to build the uuid binary.
-Verify uuid is installed properly by running `./uuid --help`.
+Next, from the command-line, run `mix local.hex` to update Hex. Run `mix deps.get` to download the necessary dependencies. Finally, run `mix escript.build` to build the uuid binary. Verify uuid is installed properly by running `./uuid --help`.
 
 ## Usage
 

@@ -59,7 +59,7 @@ defmodule UUID_GENTest do
   end
 
   test "usage" do
-    assert UUID_GEN.process_args([help: 1], [], [])
+    assert UUID_GEN.process_args([help: true], [], [])
   end
 
   test "invalid option" do

@@ -73,7 +73,7 @@ defmodule UUID_GEN do
     end
   end
 
-  def process_args([help: 1], [], []) do
+  def process_args([help: true], [], []) do
     {:ok, @usage}
   end
   
